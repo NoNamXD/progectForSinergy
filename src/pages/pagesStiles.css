@@ -1,0 +1,106 @@
+/* here stiles for registr */
+.acountGlobalStile{
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+    background-color: rgb(235, 232, 232);
+    width: 25rem;
+    position: relative;
+    left: 35%;
+    border-radius: 2rem;
+    padding: 3rem;
+}
+.acountRegisterForm{
+    display: flex;
+    flex-direction: column;
+    height: 15rem;
+    justify-content: space-around;
+}
+.acountInput{
+    border-radius: 1rem;
+    width: 17rem;
+    height: 1.8rem;
+    font-size: 1.5rem;
+}
+.acountButton{
+    width: 13rem;
+    align-self: center;
+}
+.acountData{
+    display: flex;
+    flex-direction: column;
+    height: 12rem;
+    justify-content: space-around;  
+    font-size: 1.13rem;
+}
+
+
+
+/* here stiles for chat */
+.chatGlobalStile{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 7%;
+}
+.chatWindow{
+    background-color: rgb(241, 237, 237);
+    width: 42rem;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+.chatMassages{
+    background-color: rgba(191, 194, 202, 0.397);
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+.chat{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.chatInputGlobal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 8rem;
+    background-color: rgb(241, 237, 237);
+    padding: 2rem;
+    border-radius: 2rem;
+    width: 24rem;
+}
+.chatInput{
+    width: 11rem;
+    font-size: 1.5rem;
+
+}
+.chatInputsGlobal{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+/* here stiles for Jokes */
+.jokeCenter{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+.jokesGlobalStiles{
+    margin: 3rem;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    font-size: 1.7rem;
+}
+.jokeWindow{
+    background-color: aliceblue;
+    padding: 3rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+
+/* here stiles for hoem page */
+.homePage{
+    font-size: 2rem;
+    padding: 2rem;
+}
